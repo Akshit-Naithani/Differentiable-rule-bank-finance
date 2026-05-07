@@ -1,0 +1,1511 @@
+{
+  "generated_at": "2026-05-07T09:59:06.057715",
+  "test_A_accuracy": 0.775,
+  "stress_accuracy": 0.5,
+  "results_A": [
+    {
+      "headline": "Apple reports record quarterly profit, raises annual guidance.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9344,
+        "HOLD": 0.0423,
+        "SELL": 0.0233
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "category": "clear_positive",
+      "correct": true
+    },
+    {
+      "headline": "Goldman Sachs upgrades Tesla to strong buy, sets $400 price target.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9349,
+        "HOLD": 0.042,
+        "SELL": 0.0231
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "category": "clear_positive",
+      "correct": true
+    },
+    {
+      "headline": "Nvidia beats earnings by 40%, announces $10 billion buyback.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.935,
+        "HOLD": 0.042,
+        "SELL": 0.023
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "category": "clear_positive",
+      "correct": true
+    },
+    {
+      "headline": "Amazon Prime hits 200 million users, revenue surges 25%.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.935,
+        "HOLD": 0.042,
+        "SELL": 0.023
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "category": "clear_positive",
+      "correct": true
+    },
+    {
+      "headline": "Microsoft Azure cloud revenue grows 50% year over year.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9351,
+        "HOLD": 0.0419,
+        "SELL": 0.023
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "category": "clear_positive",
+      "correct": true
+    },
+    {
+      "headline": "Startup raises $500M Series C at $5B valuation, eyes IPO.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1965,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9786,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9995,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "BUY",
+      "category": "clear_positive",
+      "correct": false
+    },
+    {
+      "headline": "Drug company receives FDA approval for blockbuster cancer treatment.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9353,
+        "HOLD": 0.0418,
+        "SELL": 0.0229
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9999,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "category": "clear_positive",
+      "correct": true
+    },
+    {
+      "headline": "Retail chain reports strongest holiday season in a decade.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9353,
+        "HOLD": 0.0418,
+        "SELL": 0.0229
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9999,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "category": "clear_positive",
+      "correct": true
+    },
+    {
+      "headline": "Company misses earnings by 30%, lays off 20% of workforce.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.3981,
+      "probs": {
+        "BUY": 0.0618,
+        "HOLD": 0.0496,
+        "SELL": 0.8887
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "clear_negative",
+      "correct": true
+    },
+    {
+      "headline": "Bank fined $3 billion for money laundering violations.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.3981,
+      "probs": {
+        "BUY": 0.0617,
+        "HOLD": 0.0495,
+        "SELL": 0.8888
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "clear_negative",
+      "correct": true
+    },
+    {
+      "headline": "Automaker recalls 2 million vehicles over safety defect.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.3981,
+      "probs": {
+        "BUY": 0.0617,
+        "HOLD": 0.0495,
+        "SELL": 0.8888
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "clear_negative",
+      "correct": true
+    },
+    {
+      "headline": "Tech firm loses $5 billion patent lawsuit, faces injunction.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.3981,
+      "probs": {
+        "BUY": 0.0619,
+        "HOLD": 0.0497,
+        "SELL": 0.8884
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "clear_negative",
+      "correct": true
+    },
+    {
+      "headline": "CEO arrested on fraud charges, shares halted.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.0502,
+        "HOLD": 0.0376,
+        "SELL": 0.9122
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 0.7905,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "clear_negative",
+      "correct": true
+    },
+    {
+      "headline": "Revenue declines for third consecutive quarter.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.3981,
+      "probs": {
+        "BUY": 0.0618,
+        "HOLD": 0.0496,
+        "SELL": 0.8886
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 0.9961,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "clear_negative",
+      "correct": true
+    },
+    {
+      "headline": "Credit agency downgrades company bonds to junk status.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.3981,
+      "probs": {
+        "BUY": 0.0617,
+        "HOLD": 0.0495,
+        "SELL": 0.8887
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 0.9999,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "clear_negative",
+      "correct": true
+    },
+    {
+      "headline": "Hedge fund discloses 8% short position in retailer.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.3981,
+      "probs": {
+        "BUY": 0.0617,
+        "HOLD": 0.0495,
+        "SELL": 0.8888
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 0.9984,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "clear_negative",
+      "correct": true
+    },
+    {
+      "headline": "Federal Reserve keeps rates unchanged, signals data-dependent approach.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1964,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9786,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "category": "clear_neutral",
+      "correct": true
+    },
+    {
+      "headline": "Merger talks between two firms ongoing, no timeline given.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1968,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9784,
+        "SELL": 0.0116
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9732,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "category": "clear_neutral",
+      "correct": true
+    },
+    {
+      "headline": "Company reports earnings in line with analyst expectations.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9351,
+        "HOLD": 0.0419,
+        "SELL": 0.023
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9994,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "HOLD",
+      "category": "clear_neutral",
+      "correct": false
+    },
+    {
+      "headline": "Annual general meeting scheduled for next month.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1964,
+      "probs": {
+        "BUY": 0.0099,
+        "HOLD": 0.9786,
+        "SELL": 0.0114
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "category": "clear_neutral",
+      "correct": true
+    },
+    {
+      "headline": "Analyst reiterates hold rating, maintains price target.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1967,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9784,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9999,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "category": "clear_neutral",
+      "correct": true
+    },
+    {
+      "headline": "Quarterly results expected next Tuesday before market open.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1966,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9785,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "category": "clear_neutral",
+      "correct": true
+    },
+    {
+      "headline": "Market volumes light ahead of holiday weekend.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1964,
+      "probs": {
+        "BUY": 0.0099,
+        "HOLD": 0.9786,
+        "SELL": 0.0114
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9989,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "category": "clear_neutral",
+      "correct": true
+    },
+    {
+      "headline": "Company announces management restructuring, no layoffs planned.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1972,
+      "probs": {
+        "BUY": 0.0101,
+        "HOLD": 0.9782,
+        "SELL": 0.0117
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "category": "clear_neutral",
+      "correct": true
+    },
+    {
+      "headline": "Revenue grew 5% but missed analyst expectations by a wide margin.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.0503,
+        "HOLD": 0.0377,
+        "SELL": 0.912
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 0.9094,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "edge_contradictory",
+      "correct": true
+    },
+    {
+      "headline": "CEO resigned amid strong quarterly results, citing personal reasons.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1965,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9785,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "category": "edge_contradictory",
+      "correct": true
+    },
+    {
+      "headline": "Company beats earnings but cuts full-year guidance significantly.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1996,
+      "probs": {
+        "BUY": 0.0107,
+        "HOLD": 0.9765,
+        "SELL": 0.0128
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.7935,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "SELL",
+      "category": "edge_contradictory",
+      "correct": false
+    },
+    {
+      "headline": "Stock falls 10% despite record profit as guidance disappoints.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.398,
+      "probs": {
+        "BUY": 0.0624,
+        "HOLD": 0.0504,
+        "SELL": 0.8872
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "edge_contradictory",
+      "correct": true
+    },
+    {
+      "headline": "Company reports no significant losses in Q3.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.2734,
+      "probs": {
+        "BUY": 0.1595,
+        "HOLD": 0.8017,
+        "SELL": 0.0388
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.5621,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "BUY",
+      "category": "edge_negation",
+      "correct": false
+    },
+    {
+      "headline": "There are no concerns about meeting debt obligations.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1972,
+      "probs": {
+        "BUY": 0.0101,
+        "HOLD": 0.9782,
+        "SELL": 0.0117
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "BUY",
+      "category": "edge_negation",
+      "correct": false
+    },
+    {
+      "headline": "Analysts find no evidence of accounting irregularities.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1972,
+      "probs": {
+        "BUY": 0.0101,
+        "HOLD": 0.9782,
+        "SELL": 0.0117
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9966,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "BUY",
+      "category": "edge_negation",
+      "correct": false
+    },
+    {
+      "headline": "Company not facing any regulatory investigations at this time.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.2048,
+      "probs": {
+        "BUY": 0.0131,
+        "HOLD": 0.973,
+        "SELL": 0.0139
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.6618,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "category": "edge_negation",
+      "correct": true
+    },
+    {
+      "headline": "Cryptocurrency exchange halts withdrawals amid liquidity concerns.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.3981,
+      "probs": {
+        "BUY": 0.0617,
+        "HOLD": 0.0495,
+        "SELL": 0.8888
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 0.9997,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "edge_domain",
+      "correct": true
+    },
+    {
+      "headline": "ESG fund inflows hit record high as sustainable investing surges.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9352,
+        "HOLD": 0.0419,
+        "SELL": 0.0229
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9982,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "category": "edge_domain",
+      "correct": true
+    },
+    {
+      "headline": "Central bank intervenes to support currency as capital flight accelerates.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1963,
+      "probs": {
+        "BUY": 0.0099,
+        "HOLD": 0.9786,
+        "SELL": 0.0114
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9803,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "SELL",
+      "category": "edge_domain",
+      "correct": false
+    },
+    {
+      "headline": "Meme stock surges 300% on social media hype, fundamentals unchanged.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9353,
+        "HOLD": 0.0418,
+        "SELL": 0.0229
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9977,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "HOLD",
+      "category": "edge_domain",
+      "correct": false
+    },
+    {
+      "headline": "Phase 3 trial shows statistically significant improvement over placebo.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9354,
+        "HOLD": 0.0418,
+        "SELL": 0.0229
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9729,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "category": "edge_jargon",
+      "correct": true
+    },
+    {
+      "headline": "Oil major reports reserve replacement ratio below 100% for third year.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.3987,
+      "probs": {
+        "BUY": 0.0593,
+        "HOLD": 0.0471,
+        "SELL": 0.8936
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 0.9539,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "category": "edge_jargon",
+      "correct": true
+    },
+    {
+      "headline": "REIT announces special dividend following asset disposal program.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1965,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9786,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9896,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "BUY",
+      "category": "edge_jargon",
+      "correct": false
+    },
+    {
+      "headline": "SaaS company reports net revenue retention of 115%, churn at 4%.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9352,
+        "HOLD": 0.0419,
+        "SELL": 0.023
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9629,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "category": "edge_jargon",
+      "correct": true
+    }
+  ],
+  "results_B": [
+    {
+      "headline": "Coinbase CEO makes critical move before earnings",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1965,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9785,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9994,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "Gold forecast and tracker: Where prices could land in 2026",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1975,
+      "probs": {
+        "BUY": 0.0102,
+        "HOLD": 0.978,
+        "SELL": 0.0118
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "Silver price predictions for the next decade: What to expect",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1966,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9785,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "Gold price outlook: Could $6,000 happen this year?",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1985,
+      "probs": {
+        "BUY": 0.0104,
+        "HOLD": 0.9775,
+        "SELL": 0.0121
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "Is your student loan repayment plan about to be eliminated? What to know before July 1.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1965,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9785,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "What is homeowners insurance? How it works, what it covers, and how much you'll pay.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1964,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9786,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "When will gas prices go down? When drivers could finally see relief.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.197,
+      "probs": {
+        "BUY": 0.0101,
+        "HOLD": 0.9783,
+        "SELL": 0.0116
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9999,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "What does homeowners insurance cover?",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1964,
+      "probs": {
+        "BUY": 0.0099,
+        "HOLD": 0.9786,
+        "SELL": 0.0114
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "What does home insurance not cover?",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1976,
+      "probs": {
+        "BUY": 0.0102,
+        "HOLD": 0.978,
+        "SELL": 0.0118
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "Navy Federal Credit Union review (2026): Low-fee military banking",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1964,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9786,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "Carlsmed (CARL) Q1 2026 Earnings Transcript",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1968,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9784,
+        "SELL": 0.0116
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    },
+    {
+      "headline": "Should you use one credit card for everything?",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1964,
+      "probs": {
+        "BUY": 0.0099,
+        "HOLD": 0.9786,
+        "SELL": 0.0114
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "source": "Yahoo RSS"
+    }
+  ],
+  "results_C": [
+    {
+      "headline": "Oh great, another record loss. Management must be thrilled.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1967,
+      "probs": {
+        "BUY": 0.01,
+        "HOLD": 0.9784,
+        "SELL": 0.0115
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9999,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "SELL",
+      "correct": false
+    },
+    {
+      "headline": "Q3 revenue: $4.2B. Expenses: $4.1B. Guidance: $4.0B.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1973,
+      "probs": {
+        "BUY": 0.0101,
+        "HOLD": 0.9781,
+        "SELL": 0.0117
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9832,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "correct": true
+    },
+    {
+      "headline": "EPS of $1.23 versus consensus of $1.23.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1977,
+      "probs": {
+        "BUY": 0.0103,
+        "HOLD": 0.9778,
+        "SELL": 0.012
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9438,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "correct": true
+    },
+    {
+      "headline": "Earnings beat.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4008,
+      "probs": {
+        "BUY": 0.9274,
+        "HOLD": 0.0464,
+        "SELL": 0.0262
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9999,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "correct": true
+    },
+    {
+      "headline": "Guidance cut.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.2024,
+      "probs": {
+        "BUY": 0.0113,
+        "HOLD": 0.9753,
+        "SELL": 0.0133
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9996,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "SELL",
+      "correct": false
+    },
+    {
+      "headline": "CEO out.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1964,
+      "probs": {
+        "BUY": 0.0099,
+        "HOLD": 0.9786,
+        "SELL": 0.0114
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9996,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "SELL",
+      "correct": false
+    },
+    {
+      "headline": "The company reached a settlement with the SEC, paying $450M in fines without admitting wrongdoing, while reporting better-than-expected quarterly earnings driven by its cloud division.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9345,
+        "HOLD": 0.0423,
+        "SELL": 0.0232
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9974,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "HOLD",
+      "correct": false
+    },
+    {
+      "headline": "Tata Motors reports record quarterly profit on strong EV sales in India.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9347,
+        "HOLD": 0.0421,
+        "SELL": 0.0231
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9999,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "BUY",
+      "correct": true
+    },
+    {
+      "headline": "HSBC to cut 35,000 jobs as part of global restructuring programme.",
+      "signal": "SELL",
+      "rule_fired": 2,
+      "strength": 0.3981,
+      "probs": {
+        "BUY": 0.0618,
+        "HOLD": 0.0496,
+        "SELL": 0.8886
+      },
+      "conditions": [
+        {
+          "feature": "f02_neg_prob",
+          "direction": ">",
+          "threshold": 0.3444,
+          "value": 1.0,
+          "satisfied": true,
+          "gate": 0.741
+        }
+      ],
+      "expected": "SELL",
+      "correct": true
+    },
+    {
+      "headline": "Company expects profitability by Q4.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.4013,
+      "probs": {
+        "BUY": 0.9353,
+        "HOLD": 0.0418,
+        "SELL": 0.0229
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.9588,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "HOLD",
+      "correct": false
+    },
+    {
+      "headline": "Five-year turnaround plan announced, short-term losses expected.",
+      "signal": "HOLD",
+      "rule_fired": 18,
+      "strength": 0.1973,
+      "probs": {
+        "BUY": 0.0101,
+        "HOLD": 0.9781,
+        "SELL": 0.0117
+      },
+      "conditions": [
+        {
+          "feature": "f03_neu_prob",
+          "direction": ">",
+          "threshold": 0.4543,
+          "value": 0.9923,
+          "satisfied": true,
+          "gate": 0.807
+        }
+      ],
+      "expected": "HOLD",
+      "correct": true
+    },
+    {
+      "headline": "Revenue not declining despite difficult market conditions.",
+      "signal": "BUY",
+      "rule_fired": 7,
+      "strength": 0.401,
+      "probs": {
+        "BUY": 0.9313,
+        "HOLD": 0.0441,
+        "SELL": 0.0245
+      },
+      "conditions": [
+        {
+          "feature": "f01_pos_prob",
+          "direction": ">",
+          "threshold": 0.3869,
+          "value": 0.986,
+          "satisfied": true,
+          "gate": 0.762
+        }
+      ],
+      "expected": "HOLD",
+      "correct": false
+    }
+  ]
+}

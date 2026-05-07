@@ -1,0 +1,23 @@
+K_base=32 K_meta=8 val_acc=0.9160
+============================================================
+
+BASE RULES:
+Base Rule  2 → SELL  (strength=0.450)
+  IF f02_neg_prob > 0.3444  [gate=0.74, τ=0.038]
+
+Base Rule  3 → SELL  (strength=0.444)
+  IF f02_neg_prob > 1.1403  [gate=0.40, τ=0.070]
+
+Base Rule  5 → HOLD  (strength=0.313)
+  IF f03_neu_prob > 1.3174  [gate=0.52, τ=0.081]
+
+Base Rule  7 → BUY   (strength=0.448)
+  IF f01_pos_prob > 0.3869  [gate=0.76, τ=0.035]
+
+Base Rule 15 → SELL  (strength=0.467)
+  IF f02_neg_prob > 1.1060  [gate=0.49, τ=0.059]
+
+Base Rule 18 → HOLD  (strength=0.125)
+  IF f03_neu_prob > 0.4543  [gate=0.81, τ=0.041]
+
+META RULES:
